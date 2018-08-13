@@ -1,0 +1,21 @@
+.comp-date-picker {
+    display: inline-block;
+    &>.next-radio-group {
+        margin-left: 10px;
+        &>.next-radio-wrapper {
+            padding: 0 20px;
+            cursor: pointer;
+            &.checked {
+                background-color: #fff;
+                &>.next-radio-label {
+                    color: #00896C;
+                }
+            }
+        }
+    }
+    &>.next-date-picker {
+        &>.next-range-picker-trigger {
+            text-align: left !important;
+        }
+    }
+}
